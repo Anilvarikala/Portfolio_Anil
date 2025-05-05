@@ -307,8 +307,14 @@ section {
   flex: 1;
   background: white;
   border-radius: 2rem;
-  border: rgb(53, 53, 53) 0.1rem solid;
-  border-color: rgb(163, 163, 163);
+ 
+  border: 5px #161616;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px;
+ 
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  /* border-color: rgb(163, 163, 163); */
+  
   text-align: center;
 }
 
@@ -446,4 +452,6 @@ footer {
 footer p {
   text-align: center;
 }
-
+html {
+  scroll-behavior: smooth;
+}
